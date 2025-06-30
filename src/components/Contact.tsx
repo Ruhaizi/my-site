@@ -1,6 +1,6 @@
 
 import { useState } from "react";
-import { Send, MapPin, Phone, Mail, Github, Linkedin, Twitter } from "lucide-react";
+import { Send, MapPin, Phone, Mail, Github, Linkedin } from "lucide-react";
 // import { useToast } from "@/hooks/use-toast";
 
 const Contact = () => {

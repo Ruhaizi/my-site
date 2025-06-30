@@ -1,5 +1,5 @@
 
-import { ExternalLink, Github, Eye } from "lucide-react";
+import { Github, Eye } from "lucide-react";
 
 const Projects = () => {
   const projects = [
