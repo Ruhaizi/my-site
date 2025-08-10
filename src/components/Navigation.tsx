@@ -31,7 +31,7 @@ const Navigation = () => {
           </div>
           
           <div className="hidden md:flex space-x-8">
-            {["home", "about", "skills", "projects", "contact"].map((item) => (
+            {["home", "about", "skills", "experience", "projects", "contact"].map((item) => (
               <button
                 key={item}
                 onClick={() => scrollToSection(item)}

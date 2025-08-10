@@ -1,6 +1,6 @@
 
 import { useEffect, useState } from "react";
-import { ChevronDown, Github, Linkedin, Mail } from "lucide-react";
+import { ChevronDown, Github, Linkedin, Mail, FileText } from "lucide-react";
 
 const Hero = () => {
   const [displayText, setDisplayText] = useState("");
@@ -38,8 +38,8 @@ const Hero = () => {
         </div>
 
         <p className="text-xl text-gray-400 mb-12 max-w-2xl mx-auto leading-relaxed">
-        I create beautiful, responsive websites and applications that bring ideas to life. 
-        I'm passionate about clean code, modern design, and crafting exceptional user experiences.
+          I create beautiful, responsive websites and applications that bring ideas to life.
+          I'm passionate about clean code, modern design, and crafting exceptional user experiences.
         </p>
 
         <div className="flex justify-center space-x-6 mb-12">
@@ -64,6 +64,21 @@ const Hero = () => {
             className="p-3 bg-white/10 backdrop-blur-sm rounded-full text-white hover:bg-white/20 transition-all duration-300 hover:scale-110"
           >
             <Mail size={24} />
+          </a>
+        </div>
+        <div className="flex justify-center mb-12">
+          <a
+            href="https://drive.google.com/file/d/1mZa6IiNVRLXyqiCbQhQ2Ipqz8HM4Mnfl/view?usp=sharing"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 px-5 py-3 rounded-full
+            border border-gray-500 shadow-md text-white/90 bg-white/5 backdrop-blur-sm
+            hover:bg-white/10 hover:border-white/40
+            transition-colors duration-200 shadow-sm
+            focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/40"
+          >
+            <FileText size={20} />
+            View Resume
           </a>
         </div>
 
